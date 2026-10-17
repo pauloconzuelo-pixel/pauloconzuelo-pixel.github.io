@@ -2,20 +2,26 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <title>Pete | DJ & Presskit</title>
   <meta name="description" content="Pete — DJ presskit, appearances, bio and bookings.">
-  <meta name="robots" content="noindex">
-  <link rel="canonical" href="https://presskit.pauloconzuelo.chatgpt.site/">
-  <meta http-equiv="refresh" content="0; url=https://presskit.pauloconzuelo.chatgpt.site/">
-  <script>window.location.replace("https://presskit.pauloconzuelo.chatgpt.site/");</script>
+  <meta name="theme-color" content="#111111">
   <style>
-    html,body{height:100%;margin:0;background:#111;color:#a7a7a2;font-family:Arial,sans-serif}
-    body{display:grid;place-items:center;text-align:center}
+    *{box-sizing:border-box}
+    html,body{width:100%;height:100%;margin:0;overflow:hidden;background:#111}
+    iframe{display:block;width:100vw;height:100vh;height:100dvh;border:0;background:#111}
+    .fallback{position:fixed;inset:auto 0 20px;text-align:center;color:#aaa;font:14px Arial,sans-serif;z-index:-1}
     a{color:#d0d0ca}
   </style>
 </head>
 <body>
-  <p>Opening Pete’s presskit…<br><a href="https://presskit.pauloconzuelo.chatgpt.site/">Continue</a></p>
+  <div class="fallback">Loading Pete’s presskit… <a href="https://presskit.pauloconzuelo.chatgpt.site/">Open directly</a></div>
+  <iframe
+    src="https://presskit.pauloconzuelo.chatgpt.site/"
+    title="Pete DJ Presskit"
+    loading="eager"
+    allow="fullscreen"
+  ></iframe>
+  <noscript><p><a href="https://presskit.pauloconzuelo.chatgpt.site/">Open Pete’s presskit</a></p></noscript>
 </body>
 </html>
